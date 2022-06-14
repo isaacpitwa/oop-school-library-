@@ -1,6 +1,20 @@
-# Ruby Enumerables
+# OOP school library
 
-> In this project you will learn how to use a module inside your class. For this you will create a class MyList and a module MyEnumerable. Your module MyEnumerable will implement a subset of the functionality of Enumerable..
+> Imagine that you are the librarian of OOP University, and you need a tool to record what books are in the library and who borrows them.   The app that you will create will allow you to:
+
+ - Add new students or teachers.
+ - Add new books.
+ - Save records of who borrowed a given book and when.
+ And all of this will be built in a beautiful and well-organized way!
+
+### How to build the "OOP school library" app
+
+Started  by building the most essential pieces of the system. To do that, you will practice Object Oriented Programming. To build the app or system you will need to create the entities presented in this diagram. Spoiler alert: this is a UML class diagram that you did not get to know yet  - it is a topic from upcoming lessons. However, it can give you an overall idea of what you are going to build.
+
+<p align="center">
+  <img src="./images/uml_class_diagram.png" alt="UML clss diagram" width="800px" />
+</p>
+
 ## Built With
 
 - Ruby
