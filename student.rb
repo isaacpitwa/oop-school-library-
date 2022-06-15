@@ -1,7 +1,7 @@
 require './person'
 class Student < Person
-    def initialize(name, age, parent_permission, classroom)
-        super(name, age, parent_permission)
+    def initialize(name, parent_permission, age , classroom)
+        super(name, parent_permission, age)
         @classroom = classroom
     end
 
