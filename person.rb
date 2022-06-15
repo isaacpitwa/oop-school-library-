@@ -6,19 +6,17 @@ class Person
     @parent_permission = parent_permission
   end
 
-  # Setters
-
-  # Getters
-  attr_reader :id
-
-  attr_accessor :name, :age
 
   def of_age
     @age >= 18
   end
-  private :of_age
 
   def can_use_services
-    of_age | @parent_permission
+    of_age || @parent_permission
   end
+
+  private :of_age
+  attr_reader :id
+  attr_accessor :name, :age
+  
 end
