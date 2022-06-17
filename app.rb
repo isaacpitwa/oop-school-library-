@@ -62,13 +62,13 @@ class App
       print 'Has parent permission? [Y/N]: '
       permission = gets[0] == 'Y'
       @persons << Student.new(age, 'unassigned', name, parent_permission: permission)
-      puts ['Person created successfully', '']
+      puts "Person created successfully \n\n"
       menu
     when '2'
       print 'Specialization: '
       specialization = gets.chomp
       @persons << Teacher.new(age, specialization, name)
-      puts ['Person created successfully', '']
+      puts "Person created successfully\n\n"
       menu
     end
   end
@@ -91,7 +91,7 @@ class App
     print 'Date: '
     date = gets.chomp
     @rentals << Rental.new(date, @persons[person_index], @books[book_index])
-    puts ['Rental created successfully', '']
+    puts "Rental created successfully \n\n"
     menu
   end
 
