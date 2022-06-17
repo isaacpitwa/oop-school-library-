@@ -106,3 +106,4 @@ class App
     menu
   end
 end
+# rubocop:enable Style/CyclomaticComplexity
