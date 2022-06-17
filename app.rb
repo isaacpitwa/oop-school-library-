@@ -1,3 +1,5 @@
+# rubocop:disable Style/CyclomaticComplexity
+
 require './person'
 require './student'
 require './teacher'
@@ -104,3 +106,5 @@ class App
     menu
   end
 end
+
+# rubocop:disable Style/CyclomaticComplexity
