@@ -26,7 +26,7 @@ class App
 
   def menu
     puts [
-    'Please choose an option by entering a number:',
+      'Please choose an option by entering a number:',
       '1 - List all books',
       '2 - List all people',
       '3 - Create a person',
@@ -103,5 +103,4 @@ class App
     puts ''
     menu
   end
-
 end
