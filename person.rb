@@ -6,7 +6,7 @@ class Person < Nameable
     @name = name
     @age = age
     @parent_permission = parent_permission
-
+    @rentals = []
     super()
   end
 
@@ -23,6 +23,6 @@ class Person < Nameable
   end
 
   private :of_age
-  attr_reader :id
+  attr_reader :id, :rentals
   attr_accessor :name, :age
 end
