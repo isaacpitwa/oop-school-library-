@@ -63,7 +63,7 @@ class App
     when '1'
       print 'Has parent permission? [Y/N]: '
       permission = gets[0] == 'Y'
-      @persons << Student.new(age, 'unassigned', name, parent_permission: permission)
+      @persons << Student.new(permission, age, 'unassigned', name)
       puts "Person created successfully \n\n"
       menu
     when '2'
@@ -106,5 +106,3 @@ class App
     menu
   end
 end
-
-# rubocop:disable Style/CyclomaticComplexity
