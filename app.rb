@@ -81,6 +81,7 @@ class App
     print 'Author: '
     author = gets.chomp
     @books << Book.new(title, author)
+    puts "Book created successfully\n\n"
   end
 
   def create_rental
